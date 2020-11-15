@@ -1,4 +1,7 @@
 # Cang_Jie_Zi
+
+Circle of learning and writing.
+
 仓颉的字。学习记录
 
 Add more as I learn more.
