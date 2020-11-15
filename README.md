@@ -12,8 +12,15 @@ Add more as I learn more.
 
 ## One Bite a Day
 - [day 1](vim/day1.md)
+- [day 2](vim/day2.md)
 
 Working configuration:
 
 on vscode: 
 - markdown math
+
+Log:
+
+11.15: 
+- Add implementation of herding.
+- Two re trick in searching.

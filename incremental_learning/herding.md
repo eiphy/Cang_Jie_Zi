@@ -24,3 +24,28 @@ w=w+\mu-\varphi(x^*)
 $$
 
 The $\varphi(x^*)$ is the chosen data point for this iteration.
+
+The overall implementation:
+
+```python
+def herding(v, size):
+    '''Implement the herding algorithm.
+    Args:
+        v, The feature vector of dimention: N X D. (Normally just before the final classification).
+    '''
+    v = v.clone().detach()  # In case directly from model.
+    v = v / torch.norm(v, dim=1, p=2, keepdim=True) # Normalized, so the distance could be calculated by dot product.
+    mu = torch.mean(v, dim=0)
+    
+    '''herding'''
+    w = mu
+    idx = []
+    count = 0
+    while len(idx) < size and count < size * 1.5:   # iCaRL use 1.1 and eeil use a fix number 1000
+        i = w.matmul(v).argmax()
+        if i not in idx:
+            idx.append(i)
+        count += 1
+        w = mu + w - v[i, :]
+    return torch.LongTensor(idx)
+```
