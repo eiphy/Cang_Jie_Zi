@@ -6,16 +6,16 @@ Circle of learning and writing.
 
 Add more as I learn more.
 
+[memo](memo.md) is for some useful information.
+
+\art is for some programing related misc.
+
 # Machine Learning
 
 ## Incremental Learning
 - [Dynamic Weight Herding](incremental_learning/herding.md)
 
-# Vim
-
-## One Bite a Day
-- [day 1](vim/day1.md)
-- [day 2](vim/day2.md)
+# [Vim](art/vim.md)
 
 Working configuration:
 
