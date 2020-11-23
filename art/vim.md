@@ -1,9 +1,13 @@
 <!-- ### <a name="table"></a>Table -->
 ### Table
 
+Part 1 Practical Usage
 - [Navigation](#Navigation)
 - [Regular Experssion](#Regular-Expression)
 - [Command](#Vim-Command)
+
+Part 2 VIM
+- [Register](#Register)
 
 ### Navigation
 
@@ -38,6 +42,8 @@ Have difficulty using in both vim and vscode extention.
 :n,md
 noremap d "\_d		d will not save content to clipboard, Use V+x instead.
 
-### Day 4
+### Register
+
+
 
 [Table](#Table)

@@ -15,6 +15,9 @@ Add more as I learn more.
 ## Incremental Learning
 - [Dynamic Weight Herding](incremental_learning/herding.md)
 
+# Miscs
+- [RAID-6](misc/raid_6.md)
+
 # [Vim](art/vim.md)
 
 Working configuration:
